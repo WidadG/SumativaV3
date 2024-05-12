@@ -1,0 +1,14 @@
+ion-col {
+  text-align: center;
+}
+.label-container {
+  display: flex; /* Usar flexbox */
+  flex-direction: column; /* Dirección de los elementos: columna */
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center; /* Centrar horizontalmente */
+  height: 100%; /* Ocupar toda la altura del contenedor padre */
+}
+
+.label-container ion-label {
+  text-align: center; /* Centrar el texto horizontalmente */
+}
